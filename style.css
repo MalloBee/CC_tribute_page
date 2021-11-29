@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:space-between;
+    background: #edf5fd;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+#img-div {
+    width:98%;
+    background-color: white;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+
+img {
+    max-width:100%;
+}
+
+#img-div, #img-div *, #title, #tribute-info {
+    padding: 10px;
+}
+
+#tribute-info {
+    width:40%;
+}
+
+footer {
+    font-weight: bold;
+    font-size: 1.5em;
+}
